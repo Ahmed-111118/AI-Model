@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.plan-form label {
+  display: block;
+  margin-top: 10px;
+}
+
+.plan-form input,
+.plan-form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.plan-form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background: #007bff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.plan-form button:disabled {
+  background: #999;
+}
+
+.plan-result {
+  margin-top: 30px;
+  padding: 20px;
+  background: #f4f8ff;
+  border-radius: 8px;
+}
+
+.plan-result h2 {
+  margin-bottom: 15px;
+}
